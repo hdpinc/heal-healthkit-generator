@@ -256,17 +256,16 @@
 			buildActionMask = 2147483647;
 			files = (
 			);
-			inputPaths = (
-				"${SRCROOT}/Pods/Target Support Files/Pods-HealthKitTestData/Pods-HealthKitTestData-frameworks.sh",
-				"${BUILT_PRODUCTS_DIR}/SwiftDate/SwiftDate.framework",
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-HealthKitTestData/Pods-HealthKitTestData-frameworks-${CONFIGURATION}-input-files.xcfilelist",
 			);
 			name = "[CP] Embed Pods Frameworks";
-			outputPaths = (
-				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/SwiftDate.framework",
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-HealthKitTestData/Pods-HealthKitTestData-frameworks-${CONFIGURATION}-output-files.xcfilelist",
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
-			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-HealthKitTestData/Pods-HealthKitTestData-frameworks.sh\"\n";
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-HealthKitTestData/Pods-HealthKitTestData-frameworks.sh\"\n";
 			showEnvVarsInLog = 0;
 		};
 		54E97E0B2895F2FADA874A74 /* [CP] Check Pods Manifest.lock */ = {
