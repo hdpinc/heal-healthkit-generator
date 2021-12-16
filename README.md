@@ -1,3 +1,11 @@
+- HealthKitのダミーデータをセットするアプリ
+- 起動したら真っ白だけど、少し放置するとダミーデータが入る
+- アプリを配布するのにFirebase App Distributionを使っていたので、Firebaseが依存に入っている
+    - そのためGoogleService-Info.plistが必要なのでビルド時に準備しておく
+    - 配置するpathはgitignoreを参照
+
+---
+
 # Heal HealthKit Sample Data Generator
 
 This is a small project for generating sample data within HealthKit on an iOS Simulator. 

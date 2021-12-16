@@ -5,6 +5,8 @@ target 'HealthKitTestData' do
   # Pods for HealthKitTestData
   pod 'SwiftDate'
 
+  pod 'Firebase/Analytics'
+
   target 'HealthKitTestDataTests' do
     inherit! :search_paths
     # Pods for testing
